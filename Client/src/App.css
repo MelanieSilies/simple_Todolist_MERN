@@ -1,0 +1,64 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create_form input {
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.create_form button {
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    background-color: darkgreen;
+    color: white;
+    height: 35px;
+    padding: 2px 5px;
+    margin-top: 2px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox .icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.task div span {
+    margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+    cursor: pointer;
+}
+
+.line_through {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px; 
+}
+
+.home h4 {
+    display: flex;
+    text-align: center;
+    width: 300px;
+}
